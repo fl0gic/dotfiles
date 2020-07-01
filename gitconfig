@@ -1,0 +1,15 @@
+[user]
+	name = flogic
+	email = gamerking195@gmail.com
+	signingKey = 4DBFC2D0037380A61CB6E569AD25E4DF29DECD31
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[gpg]
+	program = gpg
+[commit]
+	gpgSign = true
+[tag]
+	forceSignAnnotated = false
