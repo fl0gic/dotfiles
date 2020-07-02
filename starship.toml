@@ -1,0 +1,8 @@
+add_newline = false
+
+[aws]
+disabled = true
+
+[cmd_duration]
+prefix = "in "
+style = "#abaebe"

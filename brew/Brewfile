@@ -1,0 +1,41 @@
+# Taps
+tap 'caskroom/cask'
+tap 'caskroom/fonts'
+tap 'adoptopenjdk/openjdk'
+tap 'dart-lang/dart'
+tap 'github/gh'
+
+# Languages
+brew 'dart'
+brew 'go'
+brew 'rust'
+brew 'mono'
+brew 'node'
+brew 'python'
+brew 'python3'
+cask 'adoptopenjdk'
+cask 'dotnet'
+
+# Brew Packages
+brew 'starship'
+brew 'neovim'
+brew 'firebase-cli'
+brew 'gh'
+brew 'ios-deploy'
+
+# Media manipulation
+brew 'ffmpeg'
+brew 'imagemagick'
+
+# General Applications
+cask 'google-chrome'
+cask 'vlc'
+cask 'spotify'
+cask 'discord'
+
+# Dev Utility Applications
+cask 'atom'
+cask 'visual-studio-code'
+cask 'github'
+cask 'jetbrains-toolbox'
+cask 'iterm2'
