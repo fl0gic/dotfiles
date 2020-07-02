@@ -1,6 +1,6 @@
 # Taps
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
+tap 'homebrew/cask-cask'
+tap 'homebrew/cask-fonts'
 tap 'adoptopenjdk/openjdk'
 tap 'dart-lang/dart'
 tap 'github/gh'
@@ -14,7 +14,7 @@ brew 'node'
 brew 'python'
 brew 'python3'
 cask 'adoptopenjdk'
-cask 'dotnet'
+cask 'dotnet-sdk'
 
 # Brew Packages
 brew 'starship'
@@ -32,6 +32,7 @@ cask 'google-chrome'
 cask 'vlc'
 cask 'spotify'
 cask 'discord'
+cask 'aerial'
 
 # Dev Utility Applications
 cask 'atom'
@@ -39,3 +40,7 @@ cask 'visual-studio-code'
 cask 'github'
 cask 'jetbrains-toolbox'
 cask 'iterm2'
+cask 'insomnia'
+cask 'insomnia-designer'
+cask 'gpg-suite'
+cask 'google-cloud-sdk'

@@ -47,25 +47,14 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-alias l='colorls --group-directories-first --almost-all'
-alias ll='colorls --group-directories-first --almost-all --long' # detailed list view
-alias sp='spotify'
-alias pip=/usr/local/bin/pip3
+. ~/.zsh_aliases
 
 # SET JAVA_HOME to 1.8
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 # Seems to fix % at top of new windows.
 unsetopt PROMPT_SP
 
-source $(dirname $(gem which colorls))/tab_complete.sh
 eval "$(starship init zsh)"
 ssh-add -A > /dev/null 2>&1
-
-# Created by `userpath` on 2020-05-10 22:52:30
-export PATH="$PATH:/Users/caden/.local/bin"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

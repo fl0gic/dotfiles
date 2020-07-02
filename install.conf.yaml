@@ -1,8 +1,7 @@
 - clean: ['~']
 
 - shell:
-  - [chsh -s $(which zsh), Making zsh the default shell]
-  - [./setup.sh, Setting up basic packages]
+  - [sh ./setup.sh, Setting up basic packages]
 
 - link:
     ~/.gitconfig: gitconfig
@@ -18,15 +17,10 @@
     ~/.zshrc:
         path: zsh/zshrc
         create: true
+    ~/.zsh_aliases:
+        path: zsh/zsh_aliases
+        create: true
     ~/.config/starship.toml: starship.toml
-
-- tap:
-    - homebrew/bundle
-    - caskroom/cask
-    - caskroom/fonts
-    - adoptopenjdk/openjdk
-    - dart-lang/dart
-    - github/gh
 
 # Basic super important packages.
 - brew: [git, wget, curl, maven, gradle, gnupg2]
