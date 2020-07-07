@@ -1,7 +1,7 @@
 Host ec2
     HostName 52.43.175.184
     User ec2-user
-    IdentityFile ~/.ssh/id_rsa
+    IdentityFile ~/.ssh/private/jeffkey.pem
 Host vps
     HostName 45.79.83.209
     User flogic

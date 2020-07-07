@@ -10,10 +10,6 @@ brew cask upgrade
 npm install npm -g
 npm update -g
 
-# Update Ruby & gems
-sudo gem update —system
-sudo gem update
-
 # Google Cloud & Flutter
 gcloud components update
 flutter upgrade
