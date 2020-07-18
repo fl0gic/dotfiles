@@ -6,7 +6,7 @@ ZSH_CONFIG_DIR=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins
 
 cloneorpull() {
   if [[ ! -d $ZSH_CONFIG_DIR/$1 ]]; then
-    gi clone $ZSH_USERS_GIT/$1.git $ZSH_CONFIG_DIR/$1
+    git clone $ZSH_USERS_GIT/$1.git $ZSH_CONFIG_DIR/$1
   else
     cd $ZSH_CONFIG_DIR/$1
     git config pull.rebase false

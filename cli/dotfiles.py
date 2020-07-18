@@ -3,11 +3,11 @@ import os
 
 def main(args):
     if (args[1].lower() == 'install'):
-        os.system('sh ~/dotfiles/install.sh')
+        os.system('bash ~/dotfiles/install')
     elif (args[1].lower() == 'update'):
-        os.system('sh ~/dotfiles/update.sh')
+        os.system('bash ~/dotfiles/update.sh')
     elif (args[1].lower() == 'macos'):
-        os.system('sh ~/dotfiles/macos')
+        os.system('bash ~/dotfiles/macos')
     else:
         print('Invalid argument!')
         print('Valid arguments:')
