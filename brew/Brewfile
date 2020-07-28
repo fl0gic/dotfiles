@@ -33,6 +33,7 @@ cask 'vlc'
 cask 'spotify'
 cask 'discord'
 cask 'aerial'
+cask 'multimc'
 
 # Dev Utility Applications
 cask 'atom'
