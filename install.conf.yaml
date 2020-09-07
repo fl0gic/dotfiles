@@ -8,6 +8,9 @@
     ~/.ssh/config:
         path: ssh/config
         create: true
+    ~/Library/ApplicationSupport/iTerm2/Scripts/:
+      path: iterm/scripts
+      create: true
     ~/.zprofile:
         path: zsh/zprofile
         create: true
