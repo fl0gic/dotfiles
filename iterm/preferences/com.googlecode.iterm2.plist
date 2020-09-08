@@ -699,6 +699,8 @@
 	</dict>
 	<key>Default Bookmark Guid</key>
 	<string>D4F0EA59-0E81-4C83-9936-99451C2FF8F7</string>
+	<key>DoubleClickPerformsSmartSelection</key>
+	<true/>
 	<key>EnableAPIServer</key>
 	<true/>
 	<key>HapticFeedbackForEsc</key>
@@ -761,9 +763,9 @@
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>320 337 799 448 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>276 143 990 623 0 0 1440 877 </string>
+	<string>257 151 990 623 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>143 248 990 623 0 0 1440 877 </string>
+	<string>306 129 990 623 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2924,7 +2926,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>CCC0DEC1-5A42-4FF9-9629-E26F7EE2CABB</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>27</integer>
+	<integer>29</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3685,6 +3687,8 @@
 	</dict>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
 	<real>616668579.80549002</real>
+	<key>OpenBookmark</key>
+	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -3733,7 +3737,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-09-07T11:00:01Z</date>
+	<date>2020-09-07T18:19:48Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SetCookie</key>
