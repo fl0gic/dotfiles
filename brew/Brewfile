@@ -1,5 +1,4 @@
 # Taps
-tap 'homebrew/cask-cask'
 tap 'homebrew/cask-fonts'
 tap 'adoptopenjdk/openjdk'
 tap 'dart-lang/dart'
