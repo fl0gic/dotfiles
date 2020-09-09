@@ -9,6 +9,9 @@ brew upgrade --cask
 npm install npm -g
 npm update -g
 
+# Pip global packages
+pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
+
 # Google Cloud & Flutter
 gcloud components update
 flutter upgrade
