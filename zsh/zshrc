@@ -42,6 +42,8 @@ source ~/.zsh_aliases
 
 # Set JAVA_HOME to 1.8
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+# Add homebrew sbin to path.
+export PATH="/usr/local/sbin:$PATH"
 # Add ssh keys
 ssh-add -A > /dev/null 2>&1
 # Seems to fix % at top of new windows.

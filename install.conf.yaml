@@ -5,8 +5,8 @@
 
 - link:
     ~/.gitconfig: gitconfig
-    ~/Library/ApplicationSupport/iTerm2/Scripts/:
-        path: iterm/scripts
+    ~/Library/ApplicationSupport/iTerm2/Scripts:
+        path: iterm/Scripts
         create: true
     ~/.zprofile:
         path: zsh/zprofile
