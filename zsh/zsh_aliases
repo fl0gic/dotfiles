@@ -5,3 +5,4 @@
 alias sp='spotify'
 alias dotfiles='sh ~/dotfiles/cli/dotfiles'
 alias paper='./paper'
+alias pip='python3 -m pip'
