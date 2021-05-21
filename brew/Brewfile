@@ -1,13 +1,24 @@
 # Taps
-tap 'homebrew/cask-fonts'
-tap 'adoptopenjdk/openjdk'
 tap 'dart-lang/dart'
-tap 'github/gh'
+tap 'ezfe/tap'
+tap 'homebrew/bundle'
+tap 'homebrew/cask'
+tap 'homebrew/cask-drivers'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/core'
+tap 'homebrew/services'
+tap 'mongodb/brew'
+
+
+
+# ------ Formulae / SDKs ------
 
 # Languages
 brew 'dart'
 brew 'go'
 brew 'rust'
+brew 'ruby'
 brew 'mono'
 brew 'node'
 brew 'python'
@@ -15,42 +26,119 @@ brew 'python3'
 cask 'adoptopenjdk'
 cask 'dotnet-sdk'
 
-# Brew Packages
+# Development Tools
+brew 'git'
+brew 'gradle'
+brew 'maven'
+brew 'pipenv'
+brew 'poetry'
+brew 'swiftlint'
+cask 'google-cloud-sdk'
+cask 'android-commandlinetools'
+cask 'flutter'
+
+# Shell
+brew 'fish'
 brew 'starship'
-brew 'neovim'
+
+# Miscellaneous Command Line Interfaces / Applications
+brew 'act'
+brew 'curl'
 brew 'firebase-cli'
+brew 'fabric-installer'
+brew 'htop'
+brew 'httpie'
 brew 'gh'
 brew 'ios-deploy'
+brew 'jenv'
+brew 'libssh'
+brew 'libyaml'
+brew 'mas'
+brew 'neovim'
+brew 'openssl'
+brew 'speedtest-cli'
+brew 'tmux'
+brew 'vim'
+brew 'youtube-dl'
+brew 'wget'
 
 # Media manipulation
 brew 'ffmpeg'
 brew 'imagemagick'
+brew 'exiftool'
+brew 'x264'
+brew 'x265'
 
-# General Applications
-cask 'google-chrome'
-cask 'vlc'
-cask 'spotify'
-cask 'discord'
-cask 'aerial'
-cask 'multimc'
-cask 'figma'
-cask 'daisydisk'
-cask 'clockify'
-cask 'forklift'
-cask 'grammarly'
-cask 'fantastical'
-cask 'authy'
+
+
+# ------ Applications ------
+
+# Art & Design
 cask 'adobe-creative-cloud'
+cask 'figma'
+cask 'sketch'
+cask 'blender'
+mas 'Pixelmator Pro', id: 1289583905
+mas 'Shapr3D', id: 1091675654
+mas 'Vectornator', id: 1219074514
 
-# Development Applications
-cask 'atom'
-cask 'visual-studio-code'
-cask 'github'
-cask 'gitkraken'
-cask 'jetbrains-toolbox'
-cask 'iterm2'
-cask 'insomnia'
-cask 'insomnia-designer'
-cask 'gpg-suite'
+# Development
+cask 'coteditor'
 cask 'docker'
-cask 'google-cloud-sdk'
+cask 'iterm2'
+cask 'jetbrains-toolbox'
+cask 'nova'
+cask 'visual-studio-code'
+cask 'zulu'
+
+# Development tools
+cask 'font-meslo-lg-nerd-font'
+cask 'gpg-suite-no-mail'
+cask 'proxyman'
+mas 'Codye', id: 1516894961
+mas 'HextEdit', id: 1557247094
+mas 'Xcode', id: 497799835
+
+# Miscellaneous
+cask '1password'
+cask 'aerial'
+cask 'aldente'
+cask 'brave-browser'
+cask 'eul'
+cask 'notion'
+cask 'rocket'
+cask 'setapp'
+cask 'transmit'
+cask 'vanilla'
+mas '1Blocker', id: 1365531024
+mas 'CARROT Weather', id: 993487541
+mas 'Developer', id: 640199958
+mas 'Endel', id: 1484348796
+mas 'Fantastical', id: 975937182
+mas 'Grammarly for Safari', id: 1462114288
+mas 'Grocery', id: 1195676848
+mas 'Hotspot Shield', id: 771076721
+mas 'Keynote', id: 409183694
+mas 'LensOCR', id: 1549961729
+mas 'Motion', id: 434290957
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'School', id: 1465687472
+mas 'Spark', id: 1176895641
+mas 'Stockfish', id: 801463932
+mas 'Tampermonkey', id: 1482490089
+mas 'The Unarchiver', id: 425424353
+mas 'Twitter', id: 1482454543
+
+# Social
+cask 'discord'
+cask 'slack'
+cask 'zoom'
+
+# Video
+cask 'handbrake'
+cask 'iina'
+cask 'obs'
+mas 'Compressor', id: 424390742
+mas 'Final Cut Pro', id: 424389933
+

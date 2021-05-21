@@ -1,7 +1,7 @@
 [user]
-	name = flogic
-	email = gamerking195@gmail.com
-	signingkey = 4DBFC2D0037380A61CB6E569AD25E4DF29DECD31
+	name = Caden Kriese
+	email = caden2k3@gmail.com
+	signingkey = 6F13D9E3F43EE76924A74FF1B4C7E203C56B13B0
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -18,4 +18,4 @@
 [init]
 	defaultBranch = main
 [mergetool]
-	keepBackup = true
+	keepBackup = false
