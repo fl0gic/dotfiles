@@ -1,6 +1,5 @@
 # Taps
 tap 'dart-lang/dart'
-tap 'ezfe/tap'
 tap 'homebrew/bundle'
 tap 'homebrew/cask'
 tap 'homebrew/cask-drivers'
@@ -133,6 +132,7 @@ mas 'Twitter', id: 1482454543
 # Social
 cask 'discord'
 cask 'slack'
+cask 'jetbrains-space'
 cask 'zoom'
 
 # Video

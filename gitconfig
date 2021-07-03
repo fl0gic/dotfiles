@@ -1,6 +1,6 @@
 [user]
 	name = Caden Kriese
-	email = caden2k3@gmail.com
+	email = 13630061+cadenkriese@users.noreply.github.com
 	signingkey = 6F13D9E3F43EE76924A74FF1B4C7E203C56B13B0
 [filter "lfs"]
 	clean = git-lfs clean -- %f
